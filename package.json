@@ -1,0 +1,23 @@
+{
+  "name": "leetcode__",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoneyVanya/leetcode_Den.git"
+  },
+  "author": "HoneyVanya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HoneyVanya/leetcode_Den/issues"
+  },
+  "homepage": "https://github.com/HoneyVanya/leetcode_Den#readme",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^9.22.0",
+    "typescript": "^5.8.2"
+  }
+}
