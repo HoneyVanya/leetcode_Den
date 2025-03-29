@@ -9,7 +9,6 @@ function nearestExit(maze: string[][], entrance: number[]): number {
 
     while (queue.length) {
         let [r, c, steps] = queue.shift()
-
         for (let [dr, dc] of directions) {
             let nr = dr + r, nc = dc + c
             if (nr >= 0 && nr < rows && nc >= 0 && nc < cols && maze[nr][nc] === '.') {
