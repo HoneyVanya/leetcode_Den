@@ -10,7 +10,7 @@ function calcEquation(equations: string[][], values: number[], queries: string[]
 
             let dividendInMap = map.hasOwnProperty(dividend)
             let divisorInMap = map.hasOwnProperty(divisor)
-
+            
             if (!dividendInMap) map[dividend] = {}
             if (!divisorInMap) map[divisor] = {}
 
