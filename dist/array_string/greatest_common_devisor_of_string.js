@@ -1,4 +1,3 @@
-"use strict";
 // 1071. Greatest Common Divisor of Strings
 function gcdOfStrings(str1, str2) {
     let l1 = str1.length;

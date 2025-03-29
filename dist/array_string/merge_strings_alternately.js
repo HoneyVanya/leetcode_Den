@@ -1,6 +1,5 @@
-"use strict";
 // 1768. Merge Strings Alternately
-let word1 = "ab", word2 = "pqrs";
+// let word1 = "ab", word2 = "pqrs"
 function mergeAlternately(word1, word2) {
     let n = '';
     for (let i = 0; i < Math.max(word1.length, word2.length); i++) {
@@ -12,4 +11,4 @@ function mergeAlternately(word1, word2) {
     return n;
 }
 ;
-console.log(mergeAlternately(word1, word2));
+// console.log(mergeAlternately(word1, word2))

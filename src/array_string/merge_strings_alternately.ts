@@ -1,6 +1,6 @@
 // 1768. Merge Strings Alternately
 
-let word1 = "ab", word2 = "pqrs"
+// let word1 = "ab", word2 = "pqrs"
 
 function mergeAlternately(word1: string, word2: string): string {
     let n = ''
@@ -11,4 +11,4 @@ function mergeAlternately(word1: string, word2: string): string {
     return n
 };
 
-console.log(mergeAlternately(word1, word2))
+// console.log(mergeAlternately(word1, word2))
