@@ -27,7 +27,6 @@ function supplyChain(transfers) {
     dfs("A");
     return route.reverse();
 }
-[];
 const transfers = [
     ["A", "B"],
     ["B", "C"],
