@@ -13,7 +13,6 @@
  * }
  */
 function lowestCommonAncestor(root, p, q) {
-    let max = 0;
     function dfs(node) {
         if (!node)
             return null;

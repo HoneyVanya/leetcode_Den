@@ -26,13 +26,10 @@ function deleteNode(root: TreeNode | null, key: number): TreeNode | null {
         }
         root.val = temp.val
         root.right = deleteNode(root.right, temp.val)
-        return root
     } else if (key < root.val) {
         root.left = deleteNode(root.left, key)
-        return root
     } else {
         root.right = deleteNode(root.right, key)
-        return root
     }
-
+    return root
 };

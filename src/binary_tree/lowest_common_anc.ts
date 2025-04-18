@@ -15,7 +15,6 @@
  */
 
 function lowestCommonAncestor(root: TreeNode | null, p: TreeNode | null, q: TreeNode | null): TreeNode | null {
-    let max = 0
 	function dfs (node) {
         if (!node) return null
         if (p === node || q === node) return node 
